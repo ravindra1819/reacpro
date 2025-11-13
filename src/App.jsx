@@ -3,6 +3,10 @@ import Footer from './components/organisms/Footer';
 import PromoBanner from './components/organisms/PromoBanner';
 import FeaturedProductsSection from './components/organisms/FeaturedProductsSection';
 import ConditionalRenderingDemo from './components/concepts/cr/ConditionalRenderingDemo';
+import StudentList from './components/concepts/listsKeys/ListKeysDemo';
+
+
+
 
 const App = () => {
   const products = [
@@ -34,6 +38,7 @@ const App = () => {
       <PromoBanner />
       <FeaturedProductsSection products={products} />
       <ConditionalRenderingDemo />
+      <StudentList />
       <Footer year={new Date().getFullYear()} />
     </>
   );
