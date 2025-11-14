@@ -4,6 +4,7 @@ import PromoBanner from './components/organisms/PromoBanner';
 import FeaturedProductsSection from './components/organisms/FeaturedProductsSection';
 import ConditionalRenderingDemo from './components/concepts/cr/ConditionalRenderingDemo';
 import StudentList from './components/concepts/listsKeys/ListKeysDemo';
+import EventHandlingDemo from './components/concepts/events/EventHandlingDemo';
 
 
 
@@ -39,6 +40,7 @@ const App = () => {
       <FeaturedProductsSection products={products} />
       <ConditionalRenderingDemo />
       <StudentList />
+      <EventHandlingDemo />
       <Footer year={new Date().getFullYear()} />
     </>
   );

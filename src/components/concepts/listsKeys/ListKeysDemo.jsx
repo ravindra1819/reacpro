@@ -31,7 +31,8 @@ function StudentList(){
     ];
 
     return(
-        <div className="bg-red-100 p-3">
+        <div className="p-3">
+            <h2 className="text-2xl font-bold text-indigo-600 ml-3">Lists & Keys Demo</h2>
             {
                 students.map((student)=>(
                 <p className="p-3 bg-indigo-100 m-3 text-center rounded-2xl" key={student.id}>{student.name}
