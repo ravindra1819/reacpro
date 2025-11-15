@@ -6,6 +6,7 @@ import ConditionalRenderingDemo from './components/concepts/cr/ConditionalRender
 import StudentList from './components/concepts/listsKeys/ListKeysDemo';
 import EventHandlingDemo from './components/concepts/events/EventHandlingDemo';
 import SignUp from './components/concepts/form/SignUp';
+import UseEffectDemo from './components/concepts/hooks/useEffect/UseEffectDemo';
 
 
 
@@ -43,6 +44,7 @@ const App = () => {
       <StudentList />
       <EventHandlingDemo />
       <SignUp />
+      <UseEffectDemo />
       <Footer year={new Date().getFullYear()} />
     </>
   );
