@@ -7,6 +7,9 @@ import StudentList from './components/concepts/listsKeys/ListKeysDemo';
 import EventHandlingDemo from './components/concepts/events/EventHandlingDemo';
 import SignUp from './components/concepts/form/SignUp';
 import UseEffectDemo from './components/concepts/hooks/useEffect/UseEffectDemo';
+import UseRefDemo from './components/concepts/hooks/useRef/UseRefDemo';
+import FormWithState from './components/concepts/hooks/useRef/FormWithState';
+import FormWithRef from './components/concepts/hooks/useRef/FormWithRef';
 
 
 
@@ -45,6 +48,9 @@ const App = () => {
       <EventHandlingDemo />
       <SignUp />
       <UseEffectDemo />
+      <UseRefDemo />
+      <FormWithState />
+      <FormWithRef />
       <Footer year={new Date().getFullYear()} />
     </>
   );
