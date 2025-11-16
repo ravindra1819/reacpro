@@ -10,6 +10,8 @@ import UseEffectDemo from './components/concepts/hooks/useEffect/UseEffectDemo';
 import UseRefDemo from './components/concepts/hooks/useRef/UseRefDemo';
 import FormWithState from './components/concepts/hooks/useRef/FormWithState';
 import FormWithRef from './components/concepts/hooks/useRef/FormWithRef';
+import AxiosDemo from './components/concepts/axios/AxiosDemo';
+import FetchDemo from './components/concepts/axios/FetchDemo';
 
 
 
@@ -51,6 +53,8 @@ const App = () => {
       <UseRefDemo />
       <FormWithState />
       <FormWithRef />
+      <FetchDemo />
+      <AxiosDemo />
       <Footer year={new Date().getFullYear()} />
     </>
   );
