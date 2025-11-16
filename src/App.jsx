@@ -2,7 +2,8 @@ import Header from './components/organisms/Header';
 import Footer from './components/organisms/Footer';
 import PromoBanner from './components/organisms/PromoBanner';
 import FeaturedProductsSection from './components/organisms/FeaturedProductsSection';
-import ConditionalRenderingDemo from './components/concepts/cr/ConditionalRenderingDemo';
+// import ConditionalRenderingDemo from './components/concepts/cr/ConditionalRenderingDemo';
+import ConditionalRenderingPractice from './practice/Practice';
 
 const App = () => {
   const products = [
@@ -33,7 +34,8 @@ const App = () => {
       <Header title={brandName} />
       <PromoBanner />
       <FeaturedProductsSection products={products} />
-      <ConditionalRenderingDemo />
+      <ConditionalRenderingPractice/>
+      {/* <ConditionalRenderingDemo /> */}
       <Footer year={new Date().getFullYear()} />
     </>
   );
