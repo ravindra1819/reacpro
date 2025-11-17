@@ -1,17 +1,19 @@
-import Header from './components/organisms/Header';
-import Footer from './components/organisms/Footer';
-import PromoBanner from './components/organisms/PromoBanner';
-import FeaturedProductsSection from './components/organisms/FeaturedProductsSection';
-import ConditionalRenderingDemo from './components/concepts/cr/ConditionalRenderingDemo';
-import StudentList from './components/concepts/listsKeys/ListKeysDemo';
-import EventHandlingDemo from './components/concepts/events/EventHandlingDemo';
-import SignUp from './components/concepts/form/SignUp';
-import UseEffectDemo from './components/concepts/hooks/useEffect/UseEffectDemo';
-import UseRefDemo from './components/concepts/hooks/useRef/UseRefDemo';
-import FormWithState from './components/concepts/hooks/useRef/FormWithState';
-import FormWithRef from './components/concepts/hooks/useRef/FormWithRef';
-import AxiosDemo from './components/concepts/axios/AxiosDemo';
-import FetchDemo from './components/concepts/axios/FetchDemo';
+// import Header from './components/organisms/Header';
+// import Footer from './components/organisms/Footer';
+// import PromoBanner from './components/organisms/PromoBanner';
+// import FeaturedProductsSection from './components/organisms/FeaturedProductsSection';
+// import ConditionalRenderingDemo from './components/concepts/cr/ConditionalRenderingDemo';
+// import StudentList from './components/concepts/listsKeys/ListKeysDemo';
+// import EventHandlingDemo from './components/concepts/events/EventHandlingDemo';
+// import SignUp from './components/concepts/form/SignUp';
+// import UseEffectDemo from './components/concepts/hooks/useEffect/UseEffectDemo';
+// import UseRefDemo from './components/concepts/hooks/useRef/UseRefDemo';
+// import FormWithState from './components/concepts/hooks/useRef/FormWithState';
+// import FormWithRef from './components/concepts/hooks/useRef/FormWithRef';
+// import AxiosDemo from './components/concepts/axios/AxiosDemo';
+// import FetchDemo from './components/concepts/axios/FetchDemo';
+
+import TodosPagination from "./components/concepts/axios/TodosPagination";
 
 
 
@@ -42,7 +44,7 @@ const App = () => {
 
   return (
     <>
-      <Header title={brandName} />
+      {/* <Header title={brandName} />
       <PromoBanner />
       <FeaturedProductsSection products={products} />
       <ConditionalRenderingDemo />
@@ -55,7 +57,8 @@ const App = () => {
       <FormWithRef />
       <FetchDemo />
       <AxiosDemo />
-      <Footer year={new Date().getFullYear()} />
+      <Footer year={new Date().getFullYear()} /> */}
+      <TodosPagination />
     </>
   );
 };
